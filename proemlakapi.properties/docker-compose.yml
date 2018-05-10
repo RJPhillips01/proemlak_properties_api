@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  proemlakapi.properties:
+    image: ${DOCKER_REGISTRY}proemlakapiproperties
+    build:
+      context: .
+      dockerfile: proemlakapi.properties\Dockerfile
